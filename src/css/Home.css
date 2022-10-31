@@ -1,12 +1,12 @@
 
 .home{
-    height: 930px;
+    height: 100vh;
     background-color: #f6f6f6;
 }
 
 .home-container{
     position: relative;
-    top: 180px;
+    top: 200px;
     width: 50%;
     margin: 0 auto;
 }
