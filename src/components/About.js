@@ -1,5 +1,5 @@
 
-import { useState, useEffect, React} from 'react';
+import {React} from 'react';
 
 import '../css/About.css'
 
@@ -28,7 +28,7 @@ function About() {
                 </div>
 
                 <div className='about-image'>
-                    <img src="/codingGirl.png" alt="profile image" />
+                    <img src={process.env.PUBLIC_URL + '/codingGirl.png'} alt="profile image" />
                 </div>
             </div>
 

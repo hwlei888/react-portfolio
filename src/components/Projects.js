@@ -48,7 +48,7 @@ function Projects() {
 
                             <div className='project-image'>
                                 <a href={item.demo} target="_blank">
-                                    <img src={item.image} alt={item.name} />
+                                    <img src={process.env.PUBLIC_URL + item.image} alt={item.name} />
                                 </a>
                             </div>
                         </div>

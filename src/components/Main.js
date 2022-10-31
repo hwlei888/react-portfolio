@@ -26,14 +26,11 @@ function Main() {
                 </nav>
             </Router> */}
             <Navbar />
-
-            <div className='profile-body'>
-                <Home />
-                <About />
-                <Projects />
-                <Skills />
-                <Contact />
-            </div>
+            <Home />
+            <About />
+            <Projects />
+            <Skills />
+            <Contact />
 
         </div>
     );
