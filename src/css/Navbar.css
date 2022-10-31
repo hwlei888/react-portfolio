@@ -1,0 +1,15 @@
+
+
+.nav-item{
+  position: relative;
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.nav-link {
+  /* color: #fff; */
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
