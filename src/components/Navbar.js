@@ -12,7 +12,7 @@ function Navbar() {
              <div className='nav-container'>
 
                 <div className='nav-name'>
-                    <Link to='home' className="nav-link" spy={true} smooth={true} duration={800}>
+                    <Link to='home' className="nav-link" spy={true} smooth={true} duration={200}>
                         <p>Huawen Lei</p> 
                     </Link>
                 </div>
@@ -20,31 +20,31 @@ function Navbar() {
                 <div className="nav-content">
 
                     <div className="nav-item">
-                        <Link to='home' className="nav-link" spy={true} smooth={true} duration={800}>
+                        <Link to='home' className="nav-link" spy={true} smooth={true} duration={200}>
                             <p>Home</p> 
                         </Link>
                     </div>
 
                     <div className="nav-item">
-                        <Link to='about' className="nav-link" spy={true} smooth={true} duration={800}>
+                        <Link to='about' className="nav-link" spy={true} smooth={true} duration={200}>
                             <p>About</p> 
                         </Link>
                     </div>
 
                     <div className="nav-item">
-                        <Link to='projects' className="nav-link" spy={true} smooth={true} duration={800}>
+                        <Link to='projects' className="nav-link" spy={true} smooth={true} duration={200}>
                             <p>Projects</p> 
                         </Link>
                     </div>
 
                     <div className="nav-item">
-                        <Link to='skills' className="nav-link" spy={true} smooth={true} duration={800}>
+                        <Link to='skills' className="nav-link" spy={true} smooth={true} duration={200}>
                             <p>Skills</p> 
                         </Link>
                     </div>
 
                     <div className="nav-item">
-                        <Link to='contact' className="nav-link" spy={true} smooth={true} duration={800}>
+                        <Link to='contact' className="nav-link" spy={true} smooth={true} duration={200}>
                             <p>Contact</p> 
                         </Link>
                     </div>
