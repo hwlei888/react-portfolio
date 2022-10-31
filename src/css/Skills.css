@@ -1,6 +1,6 @@
 
 .skills{
-    height: 700px;
+    height:100%;
 }
 
 .skill-title{
@@ -12,6 +12,7 @@
     width: 80%;
     margin: 0 auto;
     padding-top: 70px;
+    padding-bottom: 40px;
 }
 
 .skill-box{
