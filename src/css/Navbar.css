@@ -1,15 +1,62 @@
 
 
-.nav-item{
-  position: relative;
-  padding-right: 10px;
-  padding-left: 0;
+.nav{
+  /* position: relative; */
+  position: fixed;
+  height: 66px;
+  width: 100%;
+  background-color:  #e0e0e2;
+  z-index: 5;
 }
 
+
+.nav-content{
+  position: fixed;
+  display: flex;
+  right: 0;
+  margin-top: 13px;
+}
+
+.nav-name{
+  position: fixed;
+  display: flex;
+  left: 0;
+}
+
+.nav-name :hover{
+  cursor: pointer;
+  color: blue;
+}
+
+.nav-content-secondline{
+  position: fixed;
+  display: flex;
+  top: 30px;
+  width: 10%;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-left: 13px;
+  z-index: 1;
+}
+
+.nav-content-secondline :hover{
+  cursor: pointer;
+  color: blue;
+}
+
+.nav-item :hover{
+  cursor: pointer;
+  color: blue;
+}
+
+
 .nav-link {
-  /* color: #fff; */
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.nav-container p{
+  color: black;
 }
 
 

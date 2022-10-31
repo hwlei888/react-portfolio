@@ -1,47 +1,60 @@
 
 import { useState, useEffect, React} from 'react';
 import {data} from "../data/data.js";
+import { Icon } from '@iconify/react';
+
 
 import '../css/Projects.css'
 
 function Projects() {
 
     return (
-        <div name='projects'>
-            <div><h1>Projects</h1></div>
-            {
-                data.map((item, index) =>(
-                    <div key={item.id}>
-                        <div>
-                            {item.name}
-                        </div>
+        <div className='projects'>
+            <div className="project-container">
+                <div className='project-title'><h1>Projects</h1></div>
+                {
+                    data.map((item, index) =>(
+                        <div key={item.id} className='project-card'>
+                            <div className='project-para'>
+                                <div id='project-name'>
+                                    {item.name}
+                                </div>
 
-                        <div>
-                            {item.date}
-                        </div>
+                                <div>
+                                    {item.date}
+                                </div>
 
-                        <div>
-                            {item.description}
-                        </div>
+                                <div>
+                                    {item.description}
+                                </div>
 
-                        <div>
-                            {item.tech}
-                        </div>
+                                <div>
+                                    {item.tech}
+                                </div>
 
-                        <div>
-                            {item.github}
-                        </div>
+                                <div className='project-link'>
+                                    <a href={item.github} target="_blank">
+                                        <Icon className='icon' icon="icon-park-outline:github" />
+                                        GitHub
+                                    </a>
 
-                        <div>
-                            {item.demo}
-                        </div>
+                                    <a href={item.demo} target="_blank">
+                                        <Icon className='icon' icon="akar-icons:link-chain" />
+                                        Demo
+                                    </a>
+                                </div>
 
-                        <div className='projects_image'>
-                            <img src={item.image} alt={item.name} />
+                            </div>
+
+                            <div className='project-image'>
+                                <a href={item.demo} target="_blank">
+                                    <img src={item.image} alt={item.name} />
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                ))
-            }
+                    ))
+                }
+            </div>
 
         </div>
     );

@@ -1,0 +1,39 @@
+
+.about{
+    /* position: relative; */
+    height: 520px;
+}
+
+
+.about-container{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.about-title{
+    margin-bottom: 20px;
+}
+
+.about-para{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.about-para div{
+    margin-bottom: 30px;
+}
+
+
+.about-image{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    top: -150px;
+}
+
+

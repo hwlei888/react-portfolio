@@ -1,0 +1,39 @@
+
+.skills{
+    height: 700px;
+}
+
+.skill-title{
+    padding-bottom: 20px;
+}
+
+.skill-container{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.skill-box{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    text-align: center;
+}
+
+.skill-box div{
+    margin: 10px;
+}
+
+.skill-box img{
+    width: 30%;
+}
+
+.javascript img{
+    width: 50%;
+}
+
+.html img{
+    width: 60%;
+}
+
+

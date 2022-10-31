@@ -1,0 +1,51 @@
+
+.home{
+    height: 800px;
+    background-color: #f6f6f6;
+}
+
+.home-container{
+    position: relative;
+    top: 180px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.firstLine{
+    font-size: 30px;
+}
+
+.secondLine{
+    font-size: 50px;
+}
+
+.thirdLine{
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.forthLine{
+    font-size: 30px;
+    text-align: center;
+}
+
+.fifthLine{
+    font-size: 15px;
+    text-align: center;
+}
+
+.sixthLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sixthLine div{
+    padding: 0 7%;
+    font-size: 30px;
+}
+
+
+
+

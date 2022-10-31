@@ -12,13 +12,13 @@ import Contact from './Contact';
 import Navbar from './Navbar';
 
 // const AppContext = React.createContext();
+import '../css/Main.css'
 
 
 function Main() {
 
     return (
         <div>
-            <div><h1>Portfolio</h1></div>
 
             {/* <Router>
                 <nav>
@@ -26,11 +26,14 @@ function Main() {
                 </nav>
             </Router> */}
             <Navbar />
-            <Home />
-            <About />
-            <Projects />
-            <Skills />
-            <Contact />
+
+            <div className='profile-body'>
+                <Home />
+                <About />
+                <Projects />
+                <Skills />
+                <Contact />
+            </div>
 
         </div>
     );

@@ -1,0 +1,35 @@
+
+
+.contact{
+    height: 600px;
+    background-color: #f6f6f6;
+}
+
+.contact-title{
+    padding-bottom: 20px;
+}
+
+.contact-container{
+    position: relative;
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 70px;
+    
+}
+
+.contact-container .icon{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.contact-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-link div{
+    margin-bottom: 40px;
+}
+
+
+
